@@ -15,6 +15,7 @@
 		CD04011721E82CA6006AE8AA /* ServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD04011621E82CA6006AE8AA /* ServiceTests.m */; };
 		CD04012221E82CA6006AE8AA /* ServiceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD04012121E82CA6006AE8AA /* ServiceUITests.m */; };
 		CD04013121ED7228006AE8AA /* ClientModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD04013021ED7228006AE8AA /* ClientModel.m */; };
+		CD04017321EDED5B006AE8AA /* notes.md in Resources */ = {isa = PBXBuildFile; fileRef = CD04017221EDED5B006AE8AA /* notes.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		CD04012321E82CA6006AE8AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD04012F21ED7228006AE8AA /* ClientModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClientModel.h; sourceTree = "<group>"; };
 		CD04013021ED7228006AE8AA /* ClientModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClientModel.m; sourceTree = "<group>"; };
+		CD04017221EDED5B006AE8AA /* notes.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = notes.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		CD0400FE21E82CA3006AE8AA /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				CD04017121EDED0E006AE8AA /* 笔记 */,
 				CD04013221ED722E006AE8AA /* Model */,
 				CD0400FF21E82CA3006AE8AA /* AppDelegate.h */,
 				CD04010021E82CA3006AE8AA /* AppDelegate.m */,
@@ -142,6 +145,14 @@
 				CD04013021ED7228006AE8AA /* ClientModel.m */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		CD04017121EDED0E006AE8AA /* 笔记 */ = {
+			isa = PBXGroup;
+			children = (
+				CD04017221EDED5B006AE8AA /* notes.md */,
+			);
+			path = "笔记";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD04010621E82CA6006AE8AA /* Assets.xcassets in Resources */,
+				CD04017321EDED5B006AE8AA /* notes.md in Resources */,
 				CD04010921E82CA6006AE8AA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
