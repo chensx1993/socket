@@ -1,18 +1,18 @@
 //
-//  MyClientTests.m
-//  MyClientTests
+//  ClientTests.m
+//  ClientTests
 //
-//  Created by 陈思欣 on 2018/11/21.
-//  Copyright © 2018年 chensx. All rights reserved.
+//  Created by 陈思欣 on 2019/1/15.
+//  Copyright © 2019 chensx. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface MyClientTests : XCTestCase
+@interface ClientTests : XCTestCase
 
 @end
 
-@implementation MyClientTests
+@implementation ClientTests
 
 - (void)setUp {
     // Put setup code here. This method is called before the invocation of each test method in the class.

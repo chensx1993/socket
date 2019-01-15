@@ -253,14 +253,14 @@ static int const kMaxConnectCount = 5;
 
 #pragma mark - setter
 - (NSMutableArray *)clientArray {
-    if (_clientArray) {
+    if (!_clientArray) {
         _clientArray = [NSMutableArray array];
     }
     return _clientArray;
 }
 
 - (NSMutableArray *)clientNameArray {
-    if (_clientNameArray) {
+    if (!_clientNameArray) {
         _clientNameArray = [NSMutableArray array];
     }
     return _clientNameArray;
